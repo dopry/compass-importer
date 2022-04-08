@@ -1,8 +1,10 @@
 [![Build Status](https://travis-ci.org/haithembelhaj/compass-importer.svg)](https://travis-ci.org/haithembelhaj/compass-importer)
 # compass-importer
 
+this is a fork updated to work with @typenetwork/compass-mixins
+
 A node-sass importer for compass. 
-This package will download an uptodate [compass-mixin](https://github.com/Igosuki/compass-mixins) and link all declarations of @import 'compass' to the mixins.
+This package will download an up to date [compass-mixin](https://github.com/Igosuki/compass-mixins) and link all declarations of @import 'compass' to the mixins.
 The Compass will also automagically update the [compass-mixin](https://github.com/Igosuki/compass-mixins) from Github.
 The result is all the power of [compass](http://compass-style.org/) with the speed of [libsass](http://libsass.org/).
 

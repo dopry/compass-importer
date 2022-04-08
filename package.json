@@ -1,6 +1,6 @@
 {
-  "name": "compass-importer",
-  "version": "0.4.1",
+  "name": "@typenetwork/compass-importer",
+  "version": "0.4.2",
   "description": "a node-sass importer for compass",
   "main": "index.js",
   "scripts": {
@@ -21,13 +21,16 @@
     "url": "https://github.com/haithembelhaj/compass-importer/issues"
   },
   "homepage": "https://github.com/haithembelhaj/compass-importer",
+  "peerDependencies": {
+    "@typenetwork/compass-mixins": "^0.12.12"
+  },
   "dependencies": {
-    "compass-mixins": "^0.12.10",
     "resolve": "^1.1.7"
   },
   "devDependencies": {
+    "@typenetwork/compass-mixins": "^0.12.12",
     "chai": "^3.3.0",
     "mocha": "^2.2.1",
-    "node-sass": "^3.7.0"
+    "sass": "^1.50.0"
   }
 }
